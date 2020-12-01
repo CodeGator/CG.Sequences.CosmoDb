@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright © 2020 by CodeGator. All rights reserved.</Copyright>
+    <Description>This package contains CosmoDb extensions for the CG.Sequences package. 
+
+Platforms supported:
+    .NET Standard 2.0 or above</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CodeGator/CG.Sequences.CosmoDb</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CodeGator/CG.Sequences.CosmoDb</RepositoryUrl>
+    <PackageIcon>packageDefaultIcon-50x50.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>cosmodb, sequences, CG.Sequences.CosmoDb, CodeGator</PackageTags>
+    <Authors>Martin Cook</Authors>
+    <Company>CodeGator</Company>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +30,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\packageDefaultIcon-50x50.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
