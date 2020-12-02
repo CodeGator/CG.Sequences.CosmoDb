@@ -1,40 +1,39 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CG.Sequences.CosmoDb
-  name: CG.Sequences.CosmoDb
-  href: api/CG.Sequences.CosmoDb.html
-  commentId: N:CG.Sequences.CosmoDb
-  fullName: CG.Sequences.CosmoDb
-  nameWithType: CG.Sequences.CosmoDb
 - uid: CG.Sequences.CosmoDb.Repositories
   name: CG.Sequences.CosmoDb.Repositories
   href: api/CG.Sequences.CosmoDb.Repositories.html
   commentId: N:CG.Sequences.CosmoDb.Repositories
   fullName: CG.Sequences.CosmoDb.Repositories
   nameWithType: CG.Sequences.CosmoDb.Repositories
-- uid: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository
-  name: CosmoDbSequenceRepository
-  href: api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.html
-  commentId: T:CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository
-  fullName: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository
-  nameWithType: CosmoDbSequenceRepository
-- uid: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.#ctor(Microsoft.Extensions.Options.IOptions{CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions},Microsoft.Azure.Cosmos.CosmosClient)
+- uid: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository`2
+  name: CosmoDbSequenceRepository<TModel, TKey>
+  href: api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository-2.html
+  commentId: T:CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository`2
+  name.vb: CosmoDbSequenceRepository(Of TModel, TKey)
+  fullName: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository<TModel, TKey>
+  fullName.vb: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository(Of TModel, TKey)
+  nameWithType: CosmoDbSequenceRepository<TModel, TKey>
+  nameWithType.vb: CosmoDbSequenceRepository(Of TModel, TKey)
+- uid: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository`2.#ctor(Microsoft.Extensions.Options.IOptions{CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions},Microsoft.Azure.Cosmos.CosmosClient)
   name: CosmoDbSequenceRepository(IOptions<CosmoDbSequenceRepositoryOptions>, CosmosClient)
-  href: api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.html#CG_Sequences_CosmoDb_Repositories_CosmoDbSequenceRepository__ctor_Microsoft_Extensions_Options_IOptions_CG_Sequences_CosmoDb_Repositories_Options_CosmoDbSequenceRepositoryOptions__Microsoft_Azure_Cosmos_CosmosClient_
-  commentId: M:CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.#ctor(Microsoft.Extensions.Options.IOptions{CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions},Microsoft.Azure.Cosmos.CosmosClient)
+  href: api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository-2.html#CG_Sequences_CosmoDb_Repositories_CosmoDbSequenceRepository_2__ctor_Microsoft_Extensions_Options_IOptions_CG_Sequences_CosmoDb_Repositories_Options_CosmoDbSequenceRepositoryOptions__Microsoft_Azure_Cosmos_CosmosClient_
+  commentId: M:CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository`2.#ctor(Microsoft.Extensions.Options.IOptions{CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions},Microsoft.Azure.Cosmos.CosmosClient)
   name.vb: CosmoDbSequenceRepository(IOptions(Of CosmoDbSequenceRepositoryOptions), CosmosClient)
-  fullName: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.CosmoDbSequenceRepository(Microsoft.Extensions.Options.IOptions<CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions>, Microsoft.Azure.Cosmos.CosmosClient)
-  fullName.vb: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.CosmoDbSequenceRepository(Microsoft.Extensions.Options.IOptions(Of CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions), Microsoft.Azure.Cosmos.CosmosClient)
-  nameWithType: CosmoDbSequenceRepository.CosmoDbSequenceRepository(IOptions<CosmoDbSequenceRepositoryOptions>, CosmosClient)
-  nameWithType.vb: CosmoDbSequenceRepository.CosmoDbSequenceRepository(IOptions(Of CosmoDbSequenceRepositoryOptions), CosmosClient)
-- uid: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.#ctor*
+  fullName: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository<TModel, TKey>.CosmoDbSequenceRepository(Microsoft.Extensions.Options.IOptions<CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions>, Microsoft.Azure.Cosmos.CosmosClient)
+  fullName.vb: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository(Of TModel, TKey).CosmoDbSequenceRepository(Microsoft.Extensions.Options.IOptions(Of CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions), Microsoft.Azure.Cosmos.CosmosClient)
+  nameWithType: CosmoDbSequenceRepository<TModel, TKey>.CosmoDbSequenceRepository(IOptions<CosmoDbSequenceRepositoryOptions>, CosmosClient)
+  nameWithType.vb: CosmoDbSequenceRepository(Of TModel, TKey).CosmoDbSequenceRepository(IOptions(Of CosmoDbSequenceRepositoryOptions), CosmosClient)
+- uid: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository`2.#ctor*
   name: CosmoDbSequenceRepository
-  href: api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.html#CG_Sequences_CosmoDb_Repositories_CosmoDbSequenceRepository__ctor_
-  commentId: Overload:CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.#ctor
+  href: api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository-2.html#CG_Sequences_CosmoDb_Repositories_CosmoDbSequenceRepository_2__ctor_
+  commentId: Overload:CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository`2.#ctor
   isSpec: "True"
-  fullName: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.CosmoDbSequenceRepository
-  nameWithType: CosmoDbSequenceRepository.CosmoDbSequenceRepository
+  fullName: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository<TModel, TKey>.CosmoDbSequenceRepository
+  fullName.vb: CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository(Of TModel, TKey).CosmoDbSequenceRepository
+  nameWithType: CosmoDbSequenceRepository<TModel, TKey>.CosmoDbSequenceRepository
+  nameWithType.vb: CosmoDbSequenceRepository(Of TModel, TKey).CosmoDbSequenceRepository
 - uid: CG.Sequences.CosmoDb.Repositories.Options
   name: CG.Sequences.CosmoDb.Repositories.Options
   href: api/CG.Sequences.CosmoDb.Repositories.Options.html
@@ -47,31 +46,6 @@ references:
   commentId: T:CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions
   fullName: CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions
   nameWithType: CosmoDbSequenceRepositoryOptions
-- uid: CG.Sequences.CosmoDb.SequenceCosmosClient
-  name: SequenceCosmosClient
-  href: api/CG.Sequences.CosmoDb.SequenceCosmosClient.html
-  commentId: T:CG.Sequences.CosmoDb.SequenceCosmosClient
-  fullName: CG.Sequences.CosmoDb.SequenceCosmosClient
-  nameWithType: SequenceCosmosClient
-- uid: CG.Sequences.CosmoDb.SequenceCosmosClient.#ctor(System.String,Microsoft.Azure.Cosmos.CosmosClientOptions)
-  name: SequenceCosmosClient(String, CosmosClientOptions)
-  href: api/CG.Sequences.CosmoDb.SequenceCosmosClient.html#CG_Sequences_CosmoDb_SequenceCosmosClient__ctor_System_String_Microsoft_Azure_Cosmos_CosmosClientOptions_
-  commentId: M:CG.Sequences.CosmoDb.SequenceCosmosClient.#ctor(System.String,Microsoft.Azure.Cosmos.CosmosClientOptions)
-  fullName: CG.Sequences.CosmoDb.SequenceCosmosClient.SequenceCosmosClient(System.String, Microsoft.Azure.Cosmos.CosmosClientOptions)
-  nameWithType: SequenceCosmosClient.SequenceCosmosClient(String, CosmosClientOptions)
-- uid: CG.Sequences.CosmoDb.SequenceCosmosClient.#ctor(System.String,System.String,Microsoft.Azure.Cosmos.CosmosClientOptions)
-  name: SequenceCosmosClient(String, String, CosmosClientOptions)
-  href: api/CG.Sequences.CosmoDb.SequenceCosmosClient.html#CG_Sequences_CosmoDb_SequenceCosmosClient__ctor_System_String_System_String_Microsoft_Azure_Cosmos_CosmosClientOptions_
-  commentId: M:CG.Sequences.CosmoDb.SequenceCosmosClient.#ctor(System.String,System.String,Microsoft.Azure.Cosmos.CosmosClientOptions)
-  fullName: CG.Sequences.CosmoDb.SequenceCosmosClient.SequenceCosmosClient(System.String, System.String, Microsoft.Azure.Cosmos.CosmosClientOptions)
-  nameWithType: SequenceCosmosClient.SequenceCosmosClient(String, String, CosmosClientOptions)
-- uid: CG.Sequences.CosmoDb.SequenceCosmosClient.#ctor*
-  name: SequenceCosmosClient
-  href: api/CG.Sequences.CosmoDb.SequenceCosmosClient.html#CG_Sequences_CosmoDb_SequenceCosmosClient__ctor_
-  commentId: Overload:CG.Sequences.CosmoDb.SequenceCosmosClient.#ctor
-  isSpec: "True"
-  fullName: CG.Sequences.CosmoDb.SequenceCosmosClient.SequenceCosmosClient
-  nameWithType: SequenceCosmosClient.SequenceCosmosClient
 - uid: Microsoft.Extensions.DependencyInjection
   name: Microsoft.Extensions.DependencyInjection
   href: api/Microsoft.Extensions.DependencyInjection.html
@@ -97,3 +71,12 @@ references:
   isSpec: "True"
   fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories
   nameWithType: ServiceCollectionExtensions.AddCosmoDbRepositories
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddCosmoDbRepositories<TModel, TKey>(IServiceCollection, IConfiguration)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: AddCosmoDbRepositories(Of TModel, TKey)(IServiceCollection, IConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories<TModel, TKey>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories(Of TModel, TKey)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddCosmoDbRepositories<TModel, TKey>(IServiceCollection, IConfiguration)
+  nameWithType.vb: ServiceCollectionExtensions.AddCosmoDbRepositories(Of TModel, TKey)(IServiceCollection, IConfiguration)

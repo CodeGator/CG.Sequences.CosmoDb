@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.yml",
+      "source_relative_path": "api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository.html",
-          "hash": "xiYJE8frQuyMYC5mohaYdw=="
+          "relative_path": "api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository-2.html",
+          "hash": "cIwSVq+jvhe4p05PrkNHCA=="
         }
       },
       "is_incremental": false,
@@ -54,31 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Sequences.CosmoDb.Repositories.html",
-          "hash": "K3v0vWlLwivEyHqTct4OOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Sequences.CosmoDb.SequenceCosmosClient.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Sequences.CosmoDb.SequenceCosmosClient.html",
-          "hash": "n4f5k2uJc7XSV5nB0aDLng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Sequences.CosmoDb.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Sequences.CosmoDb.html",
-          "hash": "Xz7VwYo2sZPJr0lI7wbang=="
+          "hash": "mG/rZFqNalna0Rqjo4iGAA=="
         }
       },
       "is_incremental": false,
@@ -90,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
-          "hash": "U66lOry0JW4sfMtLWDo/Fw=="
+          "hash": "Heu/F0fEmqrB5symOnnTUw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "mK0306zdO7CPUZfz6PTpJg=="
+          "hash": "g8eaY+C+Ii2t4E9UCQNzlA=="
         }
       },
       "is_incremental": false,
@@ -206,7 +182,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "6bQJdFDiVfH6UtGYKnUNJQ=="
+          "hash": "b6CrN3Efczoix1bpiDgqWQ=="
         }
       },
       "is_incremental": false,
@@ -233,7 +209,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 8,
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
