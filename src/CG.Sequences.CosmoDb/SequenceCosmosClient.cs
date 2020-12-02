@@ -14,7 +14,7 @@ namespace CG.Sequences.CosmoDb
     /// our CosmoDb client from anything else that might also be using CosmoDb 
     /// clients types. Ahh, the joys of DI ...
     /// </remarks>
-    public class SequenceCosmosClient : CosmosClient
+    internal class SequenceCosmosClient : CosmosClient
     {
         // *******************************************************************
         // Constructors.

@@ -1,4 +1,5 @@
 ﻿using CG.Business.CosmoDb.Repositories;
+using CG.Business.Models;
 using CG.Sequences.CosmoDb.Repositories.Options;
 using CG.Sequences.Models;
 using CG.Sequences.Repositories;
@@ -11,9 +12,13 @@ namespace CG.Sequences.CosmoDb.Repositories
     /// This class is a CosmoDb implementation of the <see cref="ISequenceRepository{TModel, TKey}"/>
     /// interface.
     /// </summary>
-    public class CosmoDbSequenceRepository : 
-        CosmoDbCrudRepository<IOptions<CosmoDbSequenceRepositoryOptions>, Sequence, int>,
-        ISequenceRepository<Sequence, int>
+    /// <typeparam name="TModel">The model type associated with the repository.</typeparam>
+    /// <typeparam name="TKey">The key type associated with the model.</typeparam>
+    public class CosmoDbSequenceRepository<TModel, TKey> : 
+        CosmoDbCrudRepository<IOptions<CosmoDbSequenceRepositoryOptions>, TModel, TKey>,
+        ISequenceRepository<TModel, TKey>
+        where TModel : Sequence, IModel<TKey>
+        where TKey : new()
     {
         // *******************************************************************
         // Constructors.
