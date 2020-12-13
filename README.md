@@ -4,6 +4,7 @@
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Sequences.CosmoDb/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Sequences.CosmoDb.svg?style=flat)](https://nuget.org/packages/CG.Sequences.CosmoDb)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Sequences.CosmoDb/38)
+[![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Sequences.CosmoDb/discussions)
 
 #### What does it do?
 This package contains CosmoDb extensions for the CG.Sequences package.
