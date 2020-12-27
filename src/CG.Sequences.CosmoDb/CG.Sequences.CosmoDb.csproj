@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Copyright>Copyright © 2020 by CodeGator. All rights reserved.</Copyright>
+    <Copyright>Copyright © 2020 - 2021 by CodeGator. All rights reserved.</Copyright>
     <Description>This package contains CosmoDb extensions for the CG.Sequences package. 
 
 Platforms supported:
-    .NET Standard 2.0 or above</Description>
+    .NET Core 3.1 or above</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Sequences.CosmoDb</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CodeGator/CG.Sequences.CosmoDb</RepositoryUrl>
@@ -19,12 +19,16 @@ Platforms supported:
     <Company>CodeGator</Company>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\CG.Sequences.CosmoDb.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Linq.CosmoDb" Version="2021.1.1" />
+    <PackageReference Include="CG.Linq.CosmoDb" Version="2021.1.4" />
     <PackageReference Include="CG.Sequences" Version="2021.1.1" />
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37">
       <PrivateAssets>all</PrivateAssets>
@@ -38,5 +42,9 @@ Platforms supported:
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
 
 </Project>
