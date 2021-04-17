@@ -12,8 +12,9 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IServiceCollection"/>
+    /// type, for registering types related to cosmodb extensions for sequences.
     /// </summary>
-    public static partial class ServiceCollectionExtensions
+    public static partial class SequencesCosmoDbServiceCollectionExtensions
     {
         // *******************************************************************
         // Public methods.
