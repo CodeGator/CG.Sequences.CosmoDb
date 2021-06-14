@@ -29,9 +29,9 @@ Platforms supported:
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Linq.CosmoDb" Version="2021.2.10" />
-    <PackageReference Include="CG.Sequences" Version="2021.2.7" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.205">
+    <PackageReference Include="CG.Linq.CosmoDb" Version="2021.2.11" />
+    <PackageReference Include="CG.Sequences" Version="2021.2.8" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.216">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
