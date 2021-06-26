@@ -13,12 +13,96 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sequences.CosmoDb.Repositories.CosmoDbSequenceRepository-2.html",
+          "hash": "Y5ziCYHRKwspraDHYrXF7mY9FOuOiAwNfb5TUeJmYqg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sequences.CosmoDb.Repositories.Options.CosmoDbSequenceRepositoryOptions.html",
+          "hash": "D7zE3KAw7KbF1WiGeDgbtIpIcEorrWsPru37QDbxxV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sequences.CosmoDb.Repositories.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sequences.CosmoDb.Repositories.Options.html",
+          "hash": "VPaTZTwOP+zq444QOP448iwZv7JRlyL/eD34H0MKSaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Sequences.CosmoDb.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Sequences.CosmoDb.Repositories.html",
+          "hash": "j/b8GFW/TzPkHDCE/EyCIa9qoGFxbMd0XPaeQaWJO5A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.SequencesCosmoDbServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.SequencesCosmoDbServiceCollectionExtensions.html",
+          "hash": "kZpzIbx6ffldj2x9ijIG38jb/JPP8pRABzGLzB14/nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "3DL3RxljEOd0bLLgy9JopJ/ZBZxHBUchfDZGExuNVHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "uCglP6JU1IMi76WfwG/gklZrtTPEq/INvDqBL0vaQJI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
+          "hash": "3lFGsZn+vpYCWz7OututIOBGsz91XMn2mjINvNxc584="
         }
       },
       "is_incremental": false,
@@ -86,7 +170,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "1NN0NNjGQZTNaBhRzLeku1xJjOPZJpTFxMjLYB/o2Dg="
+          "hash": "zyDCVmHgObmL5c+kry/EnigolML92Gik0xnGvs3SZ/c="
         }
       },
       "is_incremental": false,
@@ -98,7 +182,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "3HKBMJVq63URLUKolpIqjkAAS1nbtcLKbRuNns0gU0o="
+          "hash": "5b90G+MA4lahSnu/3a9KucyAuPrhtRJqyTsd6TzVXsU="
         }
       },
       "is_incremental": false,
@@ -120,6 +204,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
